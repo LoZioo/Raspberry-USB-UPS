@@ -12,5 +12,4 @@ Here are some notes about the circuit:
 - The output max current is given by the two diodes: you can choose for `D2` every Schottky diode you like with a high max current and power dissipation and whatever you want for `D1` (just make sure it won't burn out due to excessive power dissipation).
 
 ## Schematics
-
 ![Circuit](Circuit.png "Schematics")
