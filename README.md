@@ -1,2 +1,12 @@
 # Raspberry-USB-UPS
-Simple DC-DC UPS circuit for every USB device up to 5W!
+Simple DC UPS circuit for every kind of device!
+
+## You must read me!
+This circuit is far from being perfect, but it works like a charm with my Raspberry Pi 3B!
+Here's some notes about the circuit:
+- You must attach a dissipator to the `LM317` because when the Pb battery is discharged, it will limit the currend dissipating power through himself.
+- I also used a little fan because i choosed a very little dissipator for space reasons.
+- You can set the charging voltage as usual (classical `LM317` formulas).
+- You can set the maximum charging current by the formula *R4/Vbe*, where the `Vbe` of `Q1` is typically between **0.6V** and **0.7V**.
+- You can use every type of DC converter at the output (Buck, Boost ecce cc...) to fix the voltage, it's up to your needs.
+- The output max current is given by the `D2` diode: you can chose every Schottky diode you like with an high max current and power dissipation.
