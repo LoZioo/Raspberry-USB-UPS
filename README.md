@@ -10,3 +10,7 @@ Here are some notes about the circuit:
 - You can set the maximum charging current by the formula *R4/Vbe*, where the `Vbe` of `Q1` is typically between **0.6V** and **0.7V**.
 - You can use every type of DC converter at the output (Buck, Boost ecce cc...) to fix the voltage, it's up to your needs.
 - The output max current is given by the two diodes: you can choose for `D2` every Schottky diode you like with a high max current and power dissipation and whatever you want for `D1` (just make sure it won't burn out due to excessive power dissipation).
+
+## Schematics
+
+<img src "Circuit.png">
