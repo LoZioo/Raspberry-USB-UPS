@@ -13,4 +13,4 @@ Here are some notes about the circuit:
 
 ## Schematics
 
-<img src "Circuit.png">
+![Circuit](Circuit.png "Circuit")
